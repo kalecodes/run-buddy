@@ -20,7 +20,6 @@ header {
     top: 0;
     background-image: url("../images/hero-bg.jpeg");
     background-size: cover;
-    background-position: center;
     background-attachment: fixed;
     background-position: 80%;
 }
@@ -95,11 +94,12 @@ section {
 .hero {
     background-image: url("../images/hero-bg.jpeg");
     background-size: cover;
-    background-position: center;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     align-items: flex-start;
+    background-attachment: fixed;
+    background-position: 80%;
 }
 
 .hero-cta {
